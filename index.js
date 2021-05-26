@@ -8,7 +8,7 @@ app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
-app.set('port', 9999);
+app.set('port', 9977);
 app.use(express.static("public"));
 
 // various routes to render the different webpages
